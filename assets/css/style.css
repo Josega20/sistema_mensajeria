@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.chat {
+    display: flex;
+    font-family: roboto;
+}
+
+.oscuro{font-size: 16px;font-weight: bold;}
+.principal {
+    display: flex;
+    background-color: #E8EBE4;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido {
+    display: flex;
+    width: 20%;
+}
+
+.contenido img {
+    width: 100%;
+    ;
+}
+
+.informacion {
+    text-align: center;
+
+}
+.informacion h3{ 
+    font-size: 45px;
+font-weight: 10;}
+.informacion h4{ 
+    font-size: 14px;
+font-weight:0;}
+.contactos {
+    background-color: white;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.maria {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+}
+
+.maria img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.infomaria {
+    width: 70%
+}
+.infomaria h4 {
+    
+    font-size: 16px;
+}
+.infomaria h6 {
+    color: grey;
+    font-size: 10px;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    width: 33%;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 2px #E8EBE4;
+    border-right: solid 2px #E8EBE4;
+}
+
+.thebutton {
+    display: flex;
+    width: 60%;
+    height: 40%;
+    background-color: #A491D2;
+    align-items: center;
+    justify-content: center;
+}
+.thebutton p {color: white;font-size: 16px;
+}
+
+.lista_contactos {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: stretch;
+
+
+}
+
+.lista_contactos ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.lista_contactos li {
+
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 2px #E8EBE4;
+    border-right: solid 2px #E8EBE4;
+}
+
+.lista_contactos img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.infocontacto {
+    width: 50%;
+}
+.infocontacto h4 {font-size: 16px;font-weight: 400; }
+.infocontacto h6 {font-size: 14px;font-weight: 400;}
